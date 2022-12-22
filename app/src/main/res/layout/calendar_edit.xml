@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_edit_tasks"
+            android:textColor="@color/deadLine"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/titleCalendar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/highlight"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:text="@string/body_edit_tasks"
+        android:textColor="@color/deadLine"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/bodyCalendar"
+        android:layout_width="421dp"
+        android:layout_height="67dp"
+        android:layout_weight="0"
+        android:minHeight="48dp"
+        android:scrollbars="vertical" />
+
+    <CalendarView
+        android:id="@+id/calendarId"
+        android:layout_width="match_parent"
+        android:layout_height="328dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:text="@string/choose_time"
+        android:textSize="10pt" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="38dp">
+
+        <Button
+            android:id="@+id/startDate"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:ems="10"
+            android:hint="@string/start_hint"
+            android:onClick="popTimePicker"
+            android:textColor="@color/deadLine"
+            android:textSize="12pt"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/endDate"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:ems="10"
+            android:hint="@string/end_hint"
+            android:onClick="popTimePickerEnd"
+            android:textColor="@color/deadLine"
+            android:textSize="12pt" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/confirmEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/sleep_title"
+        android:text="@string/confirm"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>

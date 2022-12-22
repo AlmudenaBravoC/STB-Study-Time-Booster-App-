@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title_sleep"
+        android:layout_width="245dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="112dp"
+        android:text="@string/ques_categories"
+        android:textAlignment="center"
+        android:textColor="@color/sleep_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/MOVEMENT"
+        android:layout_width="242dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="276dp"
+        android:autoLink="phone"
+        android:backgroundTint="@color/ButtonColor"
+        android:clickable="true"
+        android:contextClickable="false"
+        android:drawableLeft="@drawable/ic_baseline_directions_run_24"
+        android:drawableTint="@color/black"
+        android:isScrollContainer="false"
+        android:onClick="SendMovement"
+        android:text="@string/movement"
+        android:textColor="#23294E"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/RANDOM"
+        android:layout_width="242dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="428dp"
+        android:backgroundTint="@color/ButtonColor"
+        android:drawableLeft="@drawable/ic_baseline_flare_24"
+        android:drawableTint="@color/black"
+        android:duplicateParentState="false"
+        android:onClick="SendRandom"
+        android:text="@string/random"
+        android:textColor="#23294E"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/HISTORY"
+        android:layout_width="242dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="352dp"
+        android:backgroundTint="@color/ButtonColor"
+        android:drawableLeft="@drawable/ic_baseline_history_edu_24"
+        android:drawableTint="@color/black"
+        android:onClick="SendHistory"
+        android:text="@string/history"
+        android:textColor="#23294E"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/CANCEL"
+        android:layout_width="126dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="576dp"
+        android:backgroundTint="@color/deadLine"
+        android:duplicateParentState="false"
+        android:onClick="CancelStudy"
+        android:text="@string/cancel_study"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="82dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

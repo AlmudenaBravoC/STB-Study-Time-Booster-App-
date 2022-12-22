@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/StudyTime"
+        android:layout_width="242dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="176dp"
+        android:autoLink="phone"
+        android:backgroundTint="@color/ButtonColor"
+        android:clickable="true"
+        android:contextClickable="false"
+        android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+        android:drawableTint="@color/black"
+        android:isScrollContainer="false"
+        android:onClick="SendToStudy"
+        android:text="@string/StudyTime"
+        android:textColor="#23294E"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Tasks"
+        android:layout_width="242dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="276dp"
+        android:backgroundTint="@color/ButtonColor"
+        android:drawableLeft="@drawable/ic_baseline_add_task_24"
+        android:drawableTint="@color/black"
+        android:onClick="SendToTasks"
+        android:text="@string/Tasks"
+        android:textColor="#23294E"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/FindService"
+        android:layout_width="242dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="376dp"
+        android:backgroundTint="@color/ButtonColor"
+        android:drawableLeft="@drawable/ic_baseline_place_24"
+        android:drawableTint="@color/black"
+        android:duplicateParentState="false"
+        android:onClick="SendToLocation"
+        android:text="@string/FindService"
+        android:textColor="#23294E"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Sleep"
+        android:layout_width="242dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="@color/ButtonColor"
+        android:drawableLeft="@drawable/ic_baseline_bedtime_24"
+        android:drawableTint="@color/black"
+        android:onClick="SendToSleep"
+        android:text="@string/Sleep"
+        android:textColor="#23294E"
+        android:textSize="24sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="@color/black"
+        app:strokeWidth="6dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="82dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="42dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="28dp"
+        app:tint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_settings_24" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">STB</string>
+    <string name="title_activity_study_time">StudyTime</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="StudyTime">Study Time</string>
+    <string name="Tasks">Tasks</string>
+    <string name="FindService">Find Service</string>
+    <string name="Sleep">Sleep</string>
+
+    <string name="next_event">The next event is:</string>
+    <string name="next_event_title">There is not event</string>
+    <string name="days_left">days left</string>
+    <string name="left">NO</string>
+
+    <!-- FOR THE SLEEP TIME -->
+    <string name="title_sleep">Time to sleep! \nWhen do you want to wake up tomorrow?</string>
+    <string name="recommended_sleep">StB recommends to sleep 8 hours, so we suggest…</string>
+    <string name="edit_time">Edit number of hours</string>
+    <string name="accept_time">Set alarm</string>
+    <string name="bed_message">There is no place like bed. \nEnjoy!</string>
+
+    <!-- FOR THE TASKS -->
+    <string name="add_new">Add Tasks</string>
+    <string name="title_edit_tasks">Title</string>
+    <string name="body_edit_tasks">Description</string>
+    <string name="confirm">Confirm</string>
+    <string name="delete">Delete Task</string>
+    <string name="add_new_event">Add New Event In Calendar</string>
+
+    <string name="choose_time">Choose time:</string>
+    <string name="start_hint">Start</string>
+    <string name="end_hint">End</string>
+
+    <!-- FOR THE STUDY TIME -->
+    <string name="study_time_title">Study Time</string>
+    <string name="pomodoro">POMODORO TECHNIQUE</string>
+    <string name="cycle_pomodoro">How many times do you wish to repeat the cycle?</string>
+    <string name="remainder_cycle">Remember that every cycle is about 25min study and 5min break repeated 4 times. Then a longer break of 30min</string>
+    <string name="start_study">Start studying!</string>
+
+    <!-- FOR THE START STUDY -->
+    <string name="button_finish">End my study</string>
+    <string name="title_dialog">Break!</string>
+    <string name="title_dialog_long">Long Break!</string>
+    <string name="message_dialog">Would you like to boost your study?</string>
+    <string name="title_dialog2">Time to study</string>
+    <string name="message_dialog2">Do you want to continue with your study?</string>
+    <string name="ques_positive">Yes</string>
+    <string name="ques_negative">No</string>
+    <string name="cancel_study">Cancel Study</string>
+
+    <!-- CHOOSE CATEGORY -->
+    <string name="movement">Movement</string>
+    <string name="history">History</string>
+    <string name="random">Curiosities</string>
+    <string name="ques_categories">Choose a category to learn from or to move your booty :)</string>
+
+    <!--FOR MAPS-->
+    <string name="atm1">Banco Santander</string>
+    <string name="atm2">Caja Rural de Jaén</string>
+    <string name="atm3">Santander ATM</string>
+    <string name="stationary1">Fotocopias el Callejón</string>
+    <string name="stationary2">Papelería Outlet</string>
+    <string name="stationary3">Folder Papelerías</string>
+    <string name="gym1">Fitness Booxing gym</string>
+    <string name="gym2">Fitness center Manuel Manchado</string>
+    <string name="gym3">BeOne Fitness-Sport</string>
+    <string name="coffe1">Cafetería del Sabatini</string>
+    <string name="coffe2">Cafetería Cornes</string>
+    <string name="coffe3">Café central</string>
+
+
+    <!--STRINGS OF THE TOASTS-->
+    <string name="alarm">Alarm!</string>
+    <string name="on_alarm">ALARM ON</string>
+    <string name="off_alarm">ALARM OFF</string>
+    <string name="please_fill">Please fill all the fields</string>
+    <string name="t_created">Task created</string>
+    <string name="t_updated">Task updated</string>
+    <string name="t_removed">Task removed</string>
+    <string name="end_cycles">END OF CYCLES!</string>
+
+
+</resources>

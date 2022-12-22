@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudyTime">
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="82dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/title_study1"
+        android:layout_width="172dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="140dp"
+        android:text="@string/study_time_title"
+        android:textAlignment="center"
+        android:textColor="@color/sleep_title"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBarPomodoro"
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="308dp"
+        android:layout_height="332dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="244dp"
+        android:indeterminateTint="@color/pomodoro_green"
+        android:max="100"
+        android:progress="80"
+        android:progressDrawable="@drawable/circular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title_study"
+        android:layout_width="235dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="204dp"
+        android:text="@string/pomodoro"
+        android:textAlignment="center"
+        android:textColor="@color/deadLine"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="181dp"
+        android:layout_height="201dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="300dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pomodoro" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
